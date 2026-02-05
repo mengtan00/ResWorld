@@ -1,0 +1,9 @@
+data
+.vscode
+*/__pycache__/*
+work_dirs
+ckpts
+**/*.pyc
+*.log
+test
+*.pth
