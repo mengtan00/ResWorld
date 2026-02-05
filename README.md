@@ -1,6 +1,6 @@
 <div align="center">
 <h1>ResWorld</h1>
-<h3>[ICLR2025] ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving</h3>
+<h3>[ICLR2026] ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving</h3>
 </div>
 
 <div align="center">
@@ -86,7 +86,7 @@ Download the backbones pretrained by GeoBEV [HERE](https://drive.google.com/file
 ```shell
 bash tools/dist_train.sh projects/configs/resworld/resworld_config.py 4
 ```
-#### 4. Evaluate GeoBEV model following:
+#### 4. Evaluate ResWorld model following:
 ```shell
 bash tools/dist_test.sh projects/configs/resworld/resworld_config.py work_dirs/resworld_config/epoch_12_ema.pth 4 --eval bbox
 ```
